@@ -1,5 +1,7 @@
-package go_say_hello
+package main
 
-func SayHello() string {
-	return "Hello bruh"
+import "fmt"
+
+func main() {
+	fmt.Println("testing")
 }
