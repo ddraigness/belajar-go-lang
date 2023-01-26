@@ -23,3 +23,22 @@ func main() {
 	fmt.Println(negative)
 	fmt.Println(positive)
 }
+
+// operasi matematika :
+// operator : (+) penjumlahan, (-) pengurangan, (*) perkalian, (/) pembagian, (%) sisa pembagian
+
+// augmented assignments :
+// operasi matematika :						|	augmented assignments :
+//		a = a + 10 									a += 10
+// 		a = a - 10									a -= 10
+//		a = a * 10									a *= 10
+//		a = a / 10									a /= 10
+//		a = a % 10									a %= 10
+
+// unary operator :
+// operator :								|	keterangan :
+//		++											a = a + 1
+//		--											a = a - 1
+// 		-											negative
+//		+											positive
+//		!											boolean kebalikan

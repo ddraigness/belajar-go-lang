@@ -20,3 +20,23 @@ func main() {
 
 	fmt.Println(ujian >= 80 && absensi >= 80)
 }
+
+// operasi boolean :
+//	operator :									| 	keterangan :
+// 		&&												Dan
+//		||												Atau
+//		!												kebalikan
+
+// operasi && :
+//	nilai 1			|	operator				| 	nilai 2					| 	hasil
+//		true				&&							true						true
+//		true				&&							false						false
+//		false				&&							true						false
+//		false				&&							false						false
+
+// operasi || :
+//	nilai 1			|	operator				| 	nilai 2					| 	hasil
+//		true				||							true						true
+//		true				||							false						true
+//		false				||							true						true
+//		false				||							false						false

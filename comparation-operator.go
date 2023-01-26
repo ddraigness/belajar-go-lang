@@ -19,3 +19,9 @@ func main() {
 	fmt.Println(value1 == value2)
 	fmt.Println(value1 != value2)
 }
+
+// operasi perbandingan :
+// 1. operasi perbandingan adalah operasi untuk membandingkan dua buah data
+// 2. operasi perbandingan adalah operasi yang menghasilkan nilai boolean (benar atau salah)
+// 3. jika hasil operasinya adalah benar, maka nilainya true
+// 4. jika hasil operasinya adalah salah, maka nilainya adalah false

@@ -18,3 +18,7 @@ func main() {
 	fmt.Println(name)
 	fmt.Println(eString)
 }
+
+// konversi tipe data :
+// 1. di go-lang kadang kita butuh melakukan konversi tipe data dari satu tipe ke tipe lain
+// 2. misal kita ingin mengkonversi tipe data int32 ke int64, dan lain-lain
