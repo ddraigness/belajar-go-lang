@@ -8,3 +8,13 @@ Namun jika ingin mencoba fitur lama Go-Lang, sebelum lanjutkan video selanjutnya
 
 go env -w  GO111MODULE=off
 */
+
+/**
+	sebelum ada go modules :
+1. saat kita membuat aplikasi, biasanya kita akan menggunakan library atau dependency dari project lain.
+2. sebelum ada go modules, management untuk dependency sangat sulit dilakukan di go-lang.
+3. biasanya kita akan meng-copy semua source code library atau dependency lain ke project kita, hal ini
+	membuat project kita menjadi bengkak karena penuh dengan library orang lain.
+4. atau biasanya library orang lain akan kita save di GOPATH directory, namun hal ini akan sulit jika 
+	ternyata beberapa aplikasi butuh library yang sama dengan versi yang berbeda
+*/
